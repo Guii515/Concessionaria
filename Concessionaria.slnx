@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Concessionaria.App/Concessionaria.App.csproj" />
+  <Project Path="Concessionaria.Domain/Concessionaria.Domain.csproj" />
+  <Project Path="Concessionaria.Repository/Concessionaria.Repository.csproj" />
+  <Project Path="Concessionaria.Service/Concessionaria.Service.csproj" />
+  <Project Path="Concessionaria.Test/Concessionaria.Test.csproj" />
+</Solution>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="Concessionaria.Domain.Base.BaseEntity">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Concessionaria.Domain.Marca">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Marca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Carros" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Concessionaria.Domain.Carro">
+    <Position X="3" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ICAAABCBACAAAAAAAAAAAAAAAAEAAAAAAAgEAAAAAAA=</HashCode>
+      <FileName>Carro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Marca" />
+      <Property Name="Concessionaria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Concessionaria.Domain.Concessionaria">
+    <Position X="5.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAEAEAA=</HashCode>
+      <FileName>Concessionaria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Carros" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Concessionaria.Domain.Cliente">
+    <Position X="8" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAQAAAAAAAAAACAAAAAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vendas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Concessionaria.Domain.Venda">
+    <Position X="10.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAQABCAAAAEAAAAAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>Venda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Carro" />
+      <Property Name="Cliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
